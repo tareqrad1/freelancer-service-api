@@ -94,4 +94,4 @@ cd your-repo
 npm install
 npm run dev
 
---Tareq Radi | FullStack Developer
+Tareq Radi | Full Stack Developer
