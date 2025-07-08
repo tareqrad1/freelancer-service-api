@@ -8,6 +8,16 @@ This is the **backend API** for a freelance service marketplace (like Fiverr or 
 - **PostgreSQL**, **Redis**
 - **JWT** (Access + Refresh Tokens)
 - **Cloudinary** (Image uploads)
+- **OTP Verification via Email** using **Nodemailer**
+
+- 
+### 📧 OTP Verification
+
+This project uses **Nodemailer** to send OTP codes (One-Time Passwords) for:
+- **Account verification**
+- **Password reset**
+
+Each code is valid for 10 minutes and is stored securely in the database with an expiration timestamp.
 
 ---
 
