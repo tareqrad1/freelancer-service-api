@@ -7,6 +7,7 @@ export type TUser = {
     id: string;
     username: string;
     email: string;
+    role: 'admin' | 'freelancer' | 'client';
     account_verification: boolean;
     created_at: Date;
 }
@@ -28,7 +29,7 @@ export const protectedRoute = async (req: CustomRequest, res: Response, next: Ne
             return;
         };
         const user = await pool.query(
-            "SELECT id, username, email, account_verification, created_at FROM users WHERE id = $1",
+            "SELECT id, username, email, account_verification, role, created_at FROM users WHERE id = $1",
             [decoded.userId]
         )
         if(user.rows.length === 0) {
