@@ -8,7 +8,8 @@ const PORT = process.env.PORT || 3000;
 import cookieParser from 'cookie-parser';
 
 // routes imports
-import userRoutes from './routes/auth.route';
+import authRoutes from './routes/auth.route';
+import userRoutes from './routes/user.route';
 import serviceRoue from './routes/service.route';
 
 
@@ -22,7 +23,8 @@ app.use(cookieParser());
 
 
 //routes
-app.use('/api/auth', userRoutes);
+app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
 app.use('/api/services', serviceRoue);
 
 //connection
