@@ -1,4 +1,4 @@
-# 🧠 Freelance Marketplace Backend API
+# 🧠 Freelance Marketplace SERVER API
 
 This is the **backend API** for a freelance service marketplace (like Fiverr or Khamsat), built with **Node.js**, **Express**, **TypeScript**, and **PostgreSQL**. It supports user authentication, role-based authorization, service management, and admin operations.
 
