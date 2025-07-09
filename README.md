@@ -95,6 +95,6 @@ A robust backend API for a freelance services marketplace platform, built with N
 
 ## ⚙️ Environment Variables
 
-Create a `.env` and call me for env file
+Create a `.env` and call me for env file 
 
-                                                                                        -Tareq Radi | Full Stack Developer 🐱‍👤
+--Tareq Radi | Full Stack Developer 🐱‍👤
