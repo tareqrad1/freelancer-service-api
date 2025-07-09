@@ -10,8 +10,9 @@ import cookieParser from 'cookie-parser';
 // routes imports
 import authRoutes from './routes/auth.route';
 import userRoutes from './routes/user.route';
-import serviceRoue from './routes/service.route';
-
+import serviceRoues from './routes/service.route';
+import paymentRoutes from './routes/payment.route';
+import orderRoutes from './routes/order.route';
 
 // middleware
 app.use(cors({
@@ -25,7 +26,9 @@ app.use(cookieParser());
 //routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
-app.use('/api/services', serviceRoue);
+app.use('/api/services', serviceRoues);
+app.use('/api/payments', paymentRoutes);
+app.use('/api/orders', orderRoutes);
 
 //connection
 app.listen(PORT, () => {
