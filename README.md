@@ -68,8 +68,8 @@ A robust backend API for a freelance services marketplace platform, built with N
 | GET    | `/`              | Get all services (filterable)          | ✅            | Freelancer/Admin  |
 | POST   | `/`              | Create new service                     | ✅            | Freelancer/Admin  |
 | GET    | `/:id`           | Get service details                    | ✅            | Any               |
-| PATCH  | `/:id`           | Update service                         | ✅            | Owner/Admin       |
-| DELETE | `/:id`           | Delete service                         | ✅            | Owner/Admin       |
+| PATCH  | `/:id`           | Update service                         | ✅            | Admin       |
+| DELETE | `/:id`           | Delete service                         | ✅            | Admin       |
 
 ### 💳 Payments (`/api/payments`)
 
