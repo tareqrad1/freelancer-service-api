@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.x-blue)
 ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
 
-A robust backend API for a freelance services marketplace platform (similar to Fiverr or Upwork), built with Node.js, Express, TypeScript, and PostgreSQL. This API supports user authentication, role-based authorization, service management, payment processing, and order tracking.
+A robust backend API for a freelance services marketplace platform, built with Node.js, Express, TypeScript, and PostgreSQL. This API supports user authentication, role-based authorization, service management, payment processing, and order tracking.
 
 ## 🌟 Features
 
